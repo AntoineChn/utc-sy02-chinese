@@ -1,0 +1,49 @@
+.theorem {
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  border: 3px solid #f8efb7;
+  background-color: #f8efb780;
+}
+
+.lemma {
+}
+
+.corollary {
+}
+
+.proposition {
+}
+
+.conjecture {
+}
+
+.definition {
+  border: 3px solid #b1d7f3;
+  background-color: #b1d7f380;
+}
+
+
+.proposition {
+}
+
+.example {
+  border: 3px solid #b4ffc9;
+  background-color: #b4ffc980;
+}
+
+.remark {
+  border: 3px solid #b4ffc9;
+  background-color: #b4ffc980;
+}
+
+.exercise {
+  border: 3px solid #b4ffc9;
+  background-color: #b4ffc980;
+}
+
+.callout {
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}

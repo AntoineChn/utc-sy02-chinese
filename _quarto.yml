@@ -1,0 +1,59 @@
+project:
+  type: book
+  # output-dir: docs
+
+lang: en
+book:
+  title: "sy02 统计学"
+  author: "AntoineChn"
+  date: "8 Sept 2022"
+  search: true
+  page-footer: 
+    left: "Copyright 2022, AntoineChn"
+    right: 
+      - icon: github
+        href: https://antoinechn.github.io/utc-sy02-chinese/
+  site-url: https://antoinechn.github.io/utc-sy02-chinese/
+  repo-url: https://github.com/AntoineChn/utc-sy02-chinese/
+  repo-branch: main
+  repo-actions: [edit]
+  callout-appearance: simple
+  sidebar:
+    collapse-level: 1
+    pinned: true
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+# comments:
+#   giscus: 
+#     repo: AntoineChn/utc-sy02-chinese
+
+format:
+  html:
+    toc-depth: 3
+    theme: Cosmo
+    # theme: 
+    #   light: flatly
+    #   dark: darkly
+    css: style.css
+    code-link: true
+    code-copy: true
+    # mainfont: "LXGW WenKai"
+    
+  # pdf:
+  #   documentclass: scrreprt
+  #   CJKmainfont: "LXGW WenKai"
+    # include-in-header: 
+    #   text: |
+    #     \usepackage{makeidx}
+    #     \makeindex
+    # include-after-body: 
+    #   text: |
+    #     \printindex
+
+editor: source
